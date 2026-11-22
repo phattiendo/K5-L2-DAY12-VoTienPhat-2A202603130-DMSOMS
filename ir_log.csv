@@ -1,0 +1,5 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Mất thông tin màu sắc khiến dải dây an toàn và nếp áo tối màu bị hòa lẫn độ tương phản",seatbelt,"Gán unknown cho seatbelt vì không thể tách ranh giới dải dây an toàn khỏi áo tối màu"
+S05_ir,IR_sim,"Chi tiết bên trong lòng ghế trẻ em và đồ vật trong vùng bóng tối bị giảm mạnh độ tương phản",object,"Giữ nhãn object nhưng đặt type=other do không thể xác định chi tiết chất liệu và hình khối"
+D03,real_IR,"Đèn LED hồng ngoại 940nm chiếu phản xạ tạo đốm lóa sáng trên bề mặt tròng kính mắt",right_eye_state,"Gán eye_right=unknown và đánh dấu cờ occluded=1 cho các điểm mí mắt bị lóa trên face13"
+D05,real_IR,"Cường độ sáng NIR suy giảm theo khoảng cách khiến bàn tay ở xa camera bị chìm vào bóng tối",hand_on_wheel,"Gán on_wheel=unknown cho bàn tay trái ở xa bị khuất sáng thay vì suy đoán từ tay phải"
