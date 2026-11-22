@@ -1,0 +1,8 @@
+image,label,field,issue,mine,peer,verdict,guideline_rule,action
+S02_rgb.png,frame_meta,modality,khác giá trị,rgb,(thiếu frame_meta),mine,4.1,Bổ sung tag frame_meta với modality=rgb; light=unknown; camera_blocked=no
+S05_rgb.png,person,seat,khác giá trị,rear_left,rear_right,mine,4.4-3,Sửa seat của person từ rear_right sang rear_left (bên phải ảnh là bên trái xe rear_left)
+S07_ir.png,person,seat,khác giá trị,rear_right,rear_middle,mine,4.4-3,Sửa seat của person bên trái ảnh từ rear_middle sang rear_right đồng bộ với S07_rgb
+D01.png,face,eye_left,khác giá trị,open,closed,peer,4.5,Sửa eye_left từ closed sang open vì mí mắt vẫn hé mở trên ảnh xoay 90 độ (trục y)
+D03.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Bật cờ occluded=1 cho điểm mí mắt trên do đốm phản xạ LED 940nm che khuất
+D04.png,hand,side,khác giá trị,right,left,peer,4.4-2,Sửa hand.side thành right theo tay phải của người thay vì nhìn theo phía bên trái khung ảnh
+D05.png,face,gaze_zone,khác giá trị,lap,other,mine,4.5,Gán gaze_zone=lap vì tài xế đang cúi nhìn điện thoại cầm trên tay
